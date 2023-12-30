@@ -3,3 +3,4 @@ tải jupyter notebook thông qua anaconda(nếu gặp vấn đề gì thì nh�
 tải các thư viện liên quan ( pip install...) 
 chỗ nào có file path thì nhét file path( là cái đường dẫn tới ổ lưu trữ của cậu) vô còn chỗ nào file name thì nhét file name
 run code :)))
+**Lưu ý: code phải có out put là số k(k-truss) hoặc number of triangles( triangles couting) và thời gian chạy, đó là code cuối cùng
