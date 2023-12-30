@@ -78,14 +78,15 @@ output chúng ta nhận được là số k
 
 độ phức tạp của thuật toán là o(số lần lặp lại của vòng lặp *(V+E))    return kmax
 
-
-
-II. Thự- Các công nghệ được dùng
+II. Thực chạy 
+- Các công nghệ được dùng
 Networkx:
 là một thư viện hộ trở ngôn ngữ Python được ứng dụng rộng rãi trong việc nghiên cứu và phân tích các mạng phức tạp. 
 scipy:
 là một thư viện mã nguồn mở và miễn  trong ngôn ngữ lập trình Python, chuyên về các chức năng toán học và khoa học và kỹ 
-+ Đối với tam giác thì thuật toán 2 chạy chậm hơn thuật toán 3 trong hầu hết các lần thửện trong python.
+- Các vấn đề khi run code
+Trong các lần chạy thì thường gặp lỗi memory errol ( do yêu cầu lưu trữ trong quá trình xử lý quá cao, đôi lúc là lên tới 512 Gib, một con số mà chỉ có siêu máy tính mới giải quyết được ), cách giải quyết thông thường là dùng cách hàm cũng như phương pháp( định dạng) lưu trữ mà NetworkX cung cấp cho ma trận thưa ( không có định nghĩa rõ ràng nhưng có thể hiểu là ma trận có nhiều giá trị bằng 0, nếu chúng ta ứng dụng cách lưu trữ thông thường thì phải lưu toàn bộ giá trị của ma trận cũng như số hàng và số cọt của ma trận, trong khi dữ liệu xử lý đa phần là ma trận thưa, nên chúng ta có thể chỉ cần lưu trữ các giá trị của ma trận lớn hơn không và số giá trị bằng 0, Việc lưu trữ này sẽ có hiểu quả cho việc lưu trữ lần thời gian thực thi của thuật toán) như C00(danh sách tọa độ) , CSR(nén hàng thưa), LIL(danh sách trong danh sách)
+Một gợi ý để giảm thời gian thực thi thuật toán là nâng cao phần cứng( tất nhiên rồi) gợi ý là sử dụng card đồ họa của NVIDIA.
+------------------------------------------------------------------------------------------------------
+Ông chạy code ( với từng bộ dataset khác nhau rồi ghi kết quả( giá trị cần tìm và thời gian để tìm) lên đây, nếu muốn thì tôi làm )
 
-
- 
