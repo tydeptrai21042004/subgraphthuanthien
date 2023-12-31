@@ -88,3 +88,5 @@ maximal k-truss( kmax, time)
 18. cit-HepPh 
 19. cit-HepTh 
 20. emall-EuAll 
+-----------------------------
+Các dataset không ghi kết quả tức là hoặc bị tràn bộ nhớ hoặc mất quá nhiều thời gian để chạy( đây là vấn đề thuần phần cứng) 
