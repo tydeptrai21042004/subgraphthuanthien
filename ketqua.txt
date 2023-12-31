@@ -1,0 +1,90 @@
+Chạy kết quả trên các bộ dataset sau
+1. amazon0302 
+2. amazon0312 
+3. amazon0505 
+4. amazon0601
+5. p2p-gnutella08
+6. p2p-gnutella04
+7. Email-Enron 
+8. Graph500-scale18-ef16
+9. Graph500-sacle19-ef16
+10. Graph500-scale20-ef16
+11. roadNet-PA
+12. ca-HepPh 
+13. ca-HepTh 
+14. soc-Epinionsl
+15. facebook combined
+16. as20000102 
+17. ca-AstroPh 
+18. cit-HepPh 
+19. cit-HepTh 
+20. emall-EuAll 
+----------------------------
+Triangle Counting( triangles, time)
+- Thuật toán lập phương ma trận kề
+1. amazon0302 717719 11,85 
+2. amazon0312 3686467 132.08
+3. amazon0505 3951063 261.929
+4. amazon0601 3986507 207.188
+
+5. p2p-gnutella08 2383 0.119
+6. p2p-gnutella04 934 0.216
+7. Email-Enron 727044 11.863
+8. Graph500-scale18-ef16 xxxx
+9. Graph500-sacle19-ef16
+10. Graph500-scale20-ef16 
+11. roadNet-PA 67150 0.836 
+12. ca-HepPh 3358499 5.546
+13. ca-HepTh 28339 0.086
+14. soc-epinions1 1624481 105.128
+15. facebook_combined 1612010 0.527
+16. as20000102 6584 0.432
+17. ca-AstroPh 1351441 4.349
+18. cit-HepPh 1276868 12.067
+19. cit-HepTh 1478735 13.801
+20. email-EuAll x x x x x 
+- Thuật toán Nhân ma trận kề với ma trận liên thuộc
+1. amazon0302 717719 1.903
+2. amazon0312 3686467 10.535
+3. amazon0505 3951063  10.999
+4. amazon0601 3986507 10.980
+
+5. p2p-gnutella08 2383 0.042
+6. p2p-gnutella04 934 0.064
+7. Email-Enron 727044 3.586
+8. Graph500-scale18-ef16 xxxxx
+9. Graph500-sacle19-ef16
+10. Graph500-scale20-ef16
+11. roadNet-PA 67150 0.351
+12. ca-HepPh 3358499 2.053
+13. ca-HepTh 28339 0.033
+14. soc-Epinions1 1624481 13.228
+15. facebook_combined 1612010 1.225
+16. as20000102 6584 0.193
+17. ca-AstroPh 1351441 1.857
+18. cit-HepPh 1276868 4.128
+19. cit-HepTh 1478735 5.888
+20. emall-EuAll 267313 22.446
+-------------------------------------------
+maximal k-truss( kmax, time)
+1. amazon0302 7 89.154
+2. amazon0312 11 881.063
+3. amazon0505 
+4. amazon0601
+
+5. p2p-gnutella08 5 2.523
+6. p2p-gnutella04 4 2.123
+7. Email-Enron 22 292.188
+8. Graph500-scale18-ef16
+9. Graph500-sacle19-ef16
+10. Graph500-scale20-ef16
+11. roadNet-PA 4 83.150
+12. ca-HepPh 
+13. ca-HepTh 32 10.486
+14. soc-
+15. facebook_combined
+16. as20000102 10 1.928
+17. ca-AstroPh 
+18. cit-HepPh 
+19. cit-HepTh 
+20. emall-EuAll 
